@@ -1,10 +1,28 @@
 // JavaScript source code
 <script>
-    var superVar = 5;
-    superVar = superVar + 2;
-    console.log(superVar); //wypisze sie 7
+    <!--
+    //document.write ("teks napisany przeze mnie...");
+    
+    // variables declaration
+    var liczba;                         //so-called GLOBAL varaibles
+    var liczba2 = 123;
+    var number, number2 = 12.3;
+    var ciagZnakow;
+    liczba = 2;
+    ciagZnakow = "wpisuje teks";
+    function mojaFunkcja()
+    {
+        var cos = "blabla";             //so-called LOCAL variables
+        document.write(ciagZnakow + " " + cos);
+    }
 
-    var superVar = 5;
-    var superVar2 = 3;
-    console.log(superVar + superVar2); //wypisze sie 8
+    var koniecLinii = <br />
+    liczba = 2;
+    var wynik;
+    document.write("a + b = ");
+    document.write(koniecLinii);
+    wynik = liczba2 + liczba;
+    
+    document.write(wynik);
+    //-->
 </script>
